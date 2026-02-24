@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.header-bg {
+  background-color: rgba(255, 255, 255, 0.847);
+}
+.footer-bg {
+  background-color: #232022;
+}
