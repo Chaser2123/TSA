@@ -1,10 +1,10 @@
 export default function ResourcesPage() {
     return(
         <>
-            <div className="w-full h-25 border overflow-hidden" style={{ backgroundImage: `url(/resources.jpg)`, backgroundRepeat: 'no-repeat', backgroundSize: '100%', backgroundPosition: 'center' }}></div>
+            <div className="w-full h-25" style={{ background: 'linear-gradient(36deg,rgba(255, 8, 8, 1) 0%, rgba(255, 128, 0, 1) 43%, rgba(37, 199, 217, 1) 77%, rgba(255, 128, 0, 1) 98%)' }}></div>
             <div className="w-full h-20 bg-gray-300"></div>
             <div className="w-full h-screen py-5">
-                <div className="border rounded-2xl w-90 h-155 sticky left-5 top-5 p-5 items-center flex flex-col text-center">
+                <div className="border rounded-2xl w-90 h-155 sticky left-5 top-30 p-5 items-center flex flex-col text-center">
                     <h1 className="text-center text-2xl font-bold border-b-2">Filters</h1><br />
                     <span>
                         <h1>age range</h1>

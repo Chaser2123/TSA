@@ -21,10 +21,10 @@ export default function ImageCaurosel({ images, message }) {
         }
     }
     return (
-        <div className="w-full h-150 overflow-hidden flex justify-center items-center relative">
+        <div className="w-full h-150 overflow-hidden flex justify-center items-center">
             <motion.h1 className="text-5xl absolute left-5 cursor-pointer px-2 font-semibold" initial={{ backgroundColor: "transparent" }} whileHover={{ backgroundColor: 'rgba(2, 2, 2, 0.45)' }} onClick={handleClickDown}>&lt;</motion.h1>
             <img className="w-full" src={imgList[index]} alt="" />
-            <motion.div className="absolute h-60 w-230 text-6xl font-bold rounded-4xl flex justify-center items-center text-center bg-blue-50 opacity-60" style={{ boxShadow: '14px 10px 16px 0px black' }}>{message}</motion.div>
+            { (message) ? <motion.div className="absolute z-0 h-60 w-230 text-6xl font-bold rounded-4xl flex justify-center items-center text-center bg-blue-50 opacity-60" style={{ boxShadow: '14px 10px 16px 0px black' }}>{message}</motion.div> : null }
             <motion.h1 className="text-5xl absolute right-5 cursor-pointer px-2 font-semibold" initial={{ backgroundColor: "transparent" }} whileHover={{ backgroundColor: 'rgba(2, 2, 2, 0.45)' }} onClick={handleClickUp}>&gt;</motion.h1>
         </div>
     )
