@@ -1,4 +1,4 @@
-@media (max-width: 1415px) {
+@media (max-width: 1140px) {
     .linksMediaClass {
         top: 120px;
         position: fixed;
@@ -15,6 +15,36 @@
         display: block !important;
     }
 }
+@media (max-width: 732px) {
+    .headerTitle {
+        font-size: 0px;
+    }
+    .headerMain {
+        flex-direction: column;
+        height: 130px;
+    }
+}
 .menuButton {
     display: none;
+}
+.mainImageText {
+    font-size: 2vw;
+    width: 80%;
+}
+@media (max-width: 900px) {
+    .mainImageText {
+        font-size: 2.5vw;
+    }
+}
+@media (max-width: 500px) {
+    .mainImageText {
+        font-size: 3.2vw;
+    }
+}
+@media (max-width: 1210px) {
+    .favoriteResources {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
 }
