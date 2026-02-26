@@ -26,7 +26,12 @@ export default function ImageCaurosel({ images, message }) {
             <img className="w-full" src={imgList[index]} alt="" />
             { (message) ? <motion.div className="
             absolute 
-            z-0 h-60
+            z-0 
+            h-fit
+            lg:py-20
+            md:py-20
+            sm:py-10
+            py-15
             lg:w-230
             md:px-50
             sm:px-20
