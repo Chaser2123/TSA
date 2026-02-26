@@ -6,7 +6,7 @@ export default function ContactPage() {
             <div>
                 <div className="flex items-center justify-center flex-col">
                     <h1 className="text-4xl font-bold text-center mt-10">Contact Us</h1>
-                    <p className="text-center mt-5 text-lg">If you have any questions, suggestions, or would like to get involved, please don't hesitate to reach out to us!</p>
+                    <p className="text-center mt-5 text-lg">Any questions, suggestions, or feedback? Please reach out to us!</p>
                     <div className="w-200 h-110 m-10 p-10 rounded-2xl border-3 flex flex-col text-center items-center">
                         <span className="flex justify-around w-full mb-5">
                         <span className="flex flex-col">

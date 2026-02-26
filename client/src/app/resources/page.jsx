@@ -1,7 +1,7 @@
 export default function ResourcesPage() {
     return(
         <>
-            <div className="w-full h-25" style={{ background: 'linear-gradient(36deg,rgba(255, 8, 8, 1) 0%, rgba(255, 128, 0, 1) 43%, rgba(37, 199, 217, 1) 77%, rgba(255, 128, 0, 1) 98%)' }}></div>
+            <div className="w-full h-25" style={{ background: 'linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)' }}></div>
             <div className="w-full h-20 bg-gray-300"></div>
             <div className="w-full h-screen py-5">
                 <div className="border rounded-2xl w-90 h-155 sticky left-5 top-30 p-5 items-center flex flex-col text-center">
@@ -32,7 +32,7 @@ export default function ResourcesPage() {
                         <input className="border rounded-3xl px-2" type="text" placeholder="Search" />
                     </span><br /><br />
                     <span>
-                        <button className="border rounded-3xl px-5 py-1 bg-blue-600 text-white hover:bg-blue-500">Apply</button>
+                        <button className="bg-blue-500 text-white w-40 px-4 py-2 rounded hover:bg-blue-600">Apply</button>
                     </span>
                 </div>
             </div>
