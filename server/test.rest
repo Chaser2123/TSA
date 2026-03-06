@@ -1,0 +1,6 @@
+### Test server root
+GET http://localhost:3005/
+
+### Get all resources
+GET http://localhost:3005/api/resources
+Content-Type: application/json
