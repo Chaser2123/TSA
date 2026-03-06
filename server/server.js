@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3005;
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin: "https://tsa-three-eosin.vercel.app/",
 }));
 
 app.get('/', (req, res) => {
