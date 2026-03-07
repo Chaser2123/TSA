@@ -36,8 +36,6 @@ export default function Header() {
                 <HeaderLink link='Resources' route='/resources' />
                 <HeaderLink link='Request' route='/request' />
                 <HeaderLink link='Contact' route='/contact' />
-                <HeaderLink link='News' route='/news' />
-                <HeaderLink link='Admin' route='/admin' />
             </span>
 
             <button className="menuButton" onClick={handleClick}>///</button>
